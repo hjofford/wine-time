@@ -22,6 +22,7 @@ app.use(
     secret: process.env.EXPRESS_SESSION_SECRET_KEY,
   })
 );
+
 app.use(express.static(path.resolve(__dirname, '../client/build')));
 app.use(express.json());
 

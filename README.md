@@ -60,12 +60,7 @@ Check your Heroku app for added database
 [Figma Layout](#)
 
 ## Future Enhancements:
-Due to time contrains, the Server Models and Controllers interact with the local db currently, but that information is not yet being servered on the Client-side. The current data is served from a ```data.json``` file in the /public/assets folder.
-* Link Server-side and Client-side using Route paths
-  * Controller to Add Task needs to be Client Side
 
-* Refactor Beautiful DND to replace current drag and drop functionality
-  * Change ```dragState.js``` and ```Board.js```
 
 
 # Getting Started with Create React App
