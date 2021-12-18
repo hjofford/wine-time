@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Project Plan",
+        "content": "Create trello and figma board to draft design and features",
+        "stream": 1
+    },
+    {
+        "id": 2,
+        "title": "Create React App",
+        "content": "Create base app structure and components folder",
+        "stream": 2
+    },
+    {
+        "id": 3,
+        "title": "Create Components",
+        "content": "3 components for Title, Streams, Tasks and a Board container. The board is where the Streams(draggable) will sit. Tasks(draggable between Streams) will sit within Streams",
+        "stream": 2
+    },
+    {
+        "id": 4,
+        "title": "Create Node server and PSQL DB",
+        "content": "Create the server side",
+        "stream": 2
+    },
+    {
+        "id": 5,
+        "title": "Create GitHub and Heroku repos",
+        "content": "Save project work and git add., git commit, git push to repo. After Heroku is connected, connect GitHub repo and set up auto-push/build",
+        "stream": 3
+    },
+    {
+        "id": 6,
+        "title": "Push and test",
+        "content": "Test in live environment and fix bugs",
+        "stream": 3
+    },
+    {
+        "id": 7,
+        "title": "Readme.md tidy-up",
+        "content": "Fix final Readme file",
+        "stream": 3
+    },
+    {
+        "id": 8,
+        "title": "Publish 'Wine Time' App",
+        "content": "Published and Live. Time for a Wine!",
+        "stream": 4
+    }
+]
