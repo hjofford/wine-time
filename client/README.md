@@ -41,6 +41,8 @@ This full-stack (MERN) app was developed in Node JS and React, using the followi
   - ```npm install axios```
 - [Dotenv](https://www.npmjs.com/package/dotenv)
   - ```npm install dotenv```
+- [React Beautiful DND](https://github.com/atlassian/react-beautiful-dnd)
+  - ```yarn add react-beautiful-dnd```
 
 This App was developed using a MERN stack. Documentation about MERN stacks can be found [HERE](https://outweb.io/documentation.html)
 
