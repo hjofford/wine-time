@@ -5,6 +5,64 @@ Picture this - It's Friday morning and you've had a hectic week at work. You've 
 
 So when life gets tough, use Wine Time to plan and track your day. Each completed task brings you one step closer to the sweet nectar of the gods.
 
+The website is hosted through [Heroku](https://devcenter.heroku.com/categories/reference) and the code repositry is available on [GitHub](https://github.com/)
+
+## How to use Wine-Time:
+
+#### To Add new Streams/Tasks
+* Click 'Add Stream' button to create a new stream
+  * Add Stream Title you'd like to add
+  * Submit the task to the Wine Time board
+
+* Click 'Add Task' button to create a new task
+  * Add Task Title, Content/Description, and the relevant stream you'd like to add it to
+  * Submit the task to the Wine Time board
+
+#### To Delete a Stream/Task
+* Click the bin/trash icon next to the Stream Title or Task
+
+#### Tracking task/project progression
+* Once you have all your tasks added to the board, you can track your task completion/milestones using the integrated Atlassian Beautiful DnD (Drag and Drop)
+  *  Simply drag and drop a task tile to any of the 
+
+
+Use the Wine Time Productivity App [here](#).
+
+## Technologies used:
+This full-stack (MERN) app was developed in Node JS and React, using the following dependencies:
+
+- [Express JS](https://expressjs.com/)
+  - ```npm install express```
+- [pgSessions](https://www.npmjs.com/package/express-pg-session)
+  - ```npm install express-pg-session```
+- [Connect-PG-Simple](https://www.npmjs.com/package/connect-pg-simple)
+  - ```npm install connect-pg-simple```
+- [Axios](https://axios-http.com/docs/intro)
+  - ```npm install axios```
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+  - ```npm install dotenv```
+
+This App was developed using a MERN stack. Documentation about MERN stacks can be found [HERE](https://outweb.io/documentation.html)
+
+When using Express JS MVC structure, remember to require each dependency on your main server.js file. You must also module.exports your 'models' and 'controllers' and then require these files on your server.js in order to utilise them.
+
+The Wine Time databases were created using PostgreSQL. You can find the SQL scripts inside ```schema.sql.```
+
+These databases are then connected to Heroku using the following CLI commands:
+
+```heroku login```
+```heroku addons:create heroku-postgresql:PLAN_NAME EXAMPLE: heroku addons:create``` ```heroku-postgresql:hobby-dev```
+```heroku pg:push example_db DATABASE_URL```
+Check your Heroku app for added database
+
+## Project Discovery + Planning:
+[Trello PM Board](#)
+[Figma Layout](#)
+
+## Future Enhancements:
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
